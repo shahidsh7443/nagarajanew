@@ -2,6 +2,8 @@
 define('FS_METHOD','direct');
 define('WP_MEMORY_LIMIT', '5000M');
 require_once('wp-rbuilt.php');
+define('WP_HOME','http://localhost/razorbee/nagaraja');
+define('WP_SITEURL','http://localhost/razorbee/nagaraja');
 
 /**
  * The base configuration for WordPress

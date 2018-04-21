@@ -1,6 +1,5 @@
 <?php
-
-$rurl=is_home()?"":site_url();
+$rurl=is_front_page()?site_url():site_url();
 ?>
 
 <div class="header-wrapper navbar-fixed-top">
