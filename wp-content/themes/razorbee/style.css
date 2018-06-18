@@ -1027,7 +1027,6 @@ text-align: left;
   background: rgba(255, 255, 255, 0.9);
     width: 101%;
   font-size: 16px;
-      color: black;
       margin-top: 0px;
       padding-top: 0px;
       text-align: justify;
@@ -6265,8 +6264,9 @@ ul.comment-list > li.bypostauthor > .comment {
 .slides-container .slider2 img
 {
   display: block !important;
-  margin-top: 340px !important;
-  height:1900px !important;
+  margin-top: -75px !important;
+  height:auto !important;
+  top:0px !important;
 }
 .slides-container .slide5 img
 {
@@ -6302,9 +6302,9 @@ ul.comment-list > li.bypostauthor > .comment {
 .slides-container .slide2 .intro span{
   text-align: center;
 }
-.slides-container .slide6 img
-{
-  margin-top: 50px !important;
+.slides-container .slide6 img {
+    margin-top: -315px !important;
+    top: 0 !important;
 }
 .slides-container .slide5 .intro
 {
@@ -6356,6 +6356,27 @@ section{
 }
 @media screen and (max-width:480px)
 {
+  .goalimg
+  {
+    width: 100%;
+  }
+  #vision .vc_column-inner {
+    padding: 25px 15px 25px 15px !important;
+}
+#philosophy .section-intro h2
+{
+  font-size: 26px;
+}
+#about #abngint .nme {
+    font-size: 24px;
+}
+#philosophy .vc_column-inner {
+  padding: 25px 15px 25px 15px !important;
+}
+  #why_naga .vc_column-inner
+  {
+    background: inherit !important;
+  }
   #contact .row .cont2 .vc_custom_1513844734930
   {
       padding-top: 15px;
@@ -6692,6 +6713,12 @@ padding-bottom: 10px;
 }
 @media screen and (min-width:770px) and (max-width:1024px)
 {
+  #vision .vc_column-inner {
+    padding: 25px 15px 25px 15px !important;
+}
+  #philosophy .vc_column-inner {
+    padding: 25px 15px 25px 15px !important;
+  }
   #achievements .row .c3 .thumbnail  {
      min-height: 286px;
    }
@@ -6812,7 +6839,8 @@ margin-left: 10px;
       margin-top: 14%!important;
   }
   .slides-container .slide6 img{
-    margin-left: -700px;
+    margin-left: 0px;
+margin-top: -125px !important;
   }
 
   .slides-container img
@@ -6876,8 +6904,9 @@ margin-left: 10px;
   }
   .slides-container li.slider2 img
   {
-    margin-top: -150px !important;
-    height: auto !important;
+    margin-top: 50px !important;
+  height: auto !important;
+  margin-left: -550px;
   }
   .slides-container li.slider1 img
   {
@@ -6889,7 +6918,7 @@ margin-left: 10px;
   margin-top: 35px !important;
   height: auto !important;
   width: 200% !important;
-margin-left: -540px;
+margin-left: -650px;
 }
 .slides-container li.slide5 img {
     margin-top: 60px !important;
@@ -6953,12 +6982,24 @@ margin-left: -540px;
     margin-left: 36%;
 }
 .slides-container .slide5 .intro {
-    margin-left: 465px !important;
+    margin-left: -70px !important;
     margin-top: 27.5% !important;
 }
 }
 @media screen and (min-width:480px) and (max-width:769px)
 {
+  #menu-primary-menu li>a {
+    font-size: 10px !important;
+}
+#menu-primary-menu li {
+      padding: 10px 7px;
+}
+  #vision .vc_column-inner {
+    padding: 25px 15px 25px 15px !important;
+}
+  #philosophy .vc_column-inner {
+    padding: 25px 15px 25px 15px !important;
+  }
   .slides-container .slide5 .container
   {
     margin-left: -10px !important;
@@ -7104,8 +7145,9 @@ width: 105%;
   }
   .slides-container li.slider2 img
   {
-    margin-top: -105px !important;
-    height: auto !important;
+    margin-top: 20px !important;
+  height: auto !important;
+  margin-left: -400px;
   }
   .slides-container li.slider1 img {
     margin-top: 215px !important;
@@ -7118,7 +7160,7 @@ width: 105%;
   margin-top: 104px !important;
   height: auto !important;
   width: 190% !important;
-  margin-left: -360px;
+  margin-left: -450px;
 }
 #slides .slides-control .slides-container .intro1 {
     position: absolute;
@@ -7133,7 +7175,7 @@ width: 105%;
 }
 .slides-container .slide6 img {
     margin-top: 20px !important;
-    margin-left: -500px;
+    margin-left: 0px;
 }
 .slides-container li.slide5 img {
     margin-top: 108px !important;
@@ -7226,7 +7268,7 @@ margin-top: 65px;
     margin: 12px 0 0 20px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .navbar-fixed-top .container-fluid img {
     padding: 2px 0 2px 0;
@@ -7307,10 +7349,11 @@ margin-top: 65px;
   }
   .slides-container .slide6 img {
     left: -30px !important;
-    top: -80px !important;
-    height: 605px !important;
-    margin-left: -317px;
-    width: auto !important;
+top: -80px !important;
+height: auto !important;
+margin-left: 0px;
+width: 475px !important;
+margin-top: 100px !important;
 }
 #slides .slides-container .slide6 .intro {
     background: rgba(0,0,0,0.4);
@@ -7348,10 +7391,10 @@ margin-top: 65px;
 }
 .slides-container .slider44 img {
   display: block !important;
-    margin-top: 75px !important;
+    margin-top: 100px !important;
     height: auto !important;
-    margin-left: -30px;
-    width: 440px !important;
+    margin-left: -265px;
+    width: 830px !important;
 }
 .slides-container .slide5 img {
     display: block !important;
@@ -7365,9 +7408,10 @@ margin-top: 65px;
     margin-top: 0px !important;
   }
 .slides-container .slider2 img {
-    display: block !important;
-    margin-top: 50px !important;
-        width: 475px !important;
+  display: block !important;
+  margin-top: 75px !important;
+  width: auto !important;
+  margin-left: -80px;
 }
 .header-default .slides-container .slide5 .intro {
   padding: 0px;
@@ -7427,4 +7471,121 @@ margin-top: 0px !important;
     margin-top: 395px !important;
     padding-top: 14px !important;
 }
+}*/
+
+/************************************************MYCSS NEW***********************************/
+#about h3
+{
+  margin-bottom: 5px;
+}
+#about #abngint .subhd
+{
+  color: #333333;
+  font-size: 20px;
+}
+#about #abngint .nme
+{
+  font-size: 30px;
+}
+#about #abngint .vc_column-inner
+{
+  height: auto;
+  padding-top: 30px;
+}
+#philosophy .vc_column-inner
+{
+background: rgba(255,255,255,0.9);
+padding: 20px 20px 20px 0;
+text-align: justify;
+}
+#philosophy p
+{
+  text-align: justify;
+}
+#philosophy {
+    border-top: 4px double #000000;
+    background: rgba(255,255,255,0.4);
+}
+#about #abngint .vc_column-inner
+{
+  margin-left: 0px;
+}
+#about
+{
+    background: rgba(255,255,255,0.4);
+}
+#vision p
+{
+  text-align: justify;
+}
+#vision
+{
+    background: rgba(255,255,255,0.4);
+    border-top: 4px double #000000;
+}
+#vision .vc_column-inner
+{
+background: rgba(255,255,255,0.9);
+padding: 20px 20px 20px 0;
+text-align: justify;
+}
+.achievementrow
+{
+  display: none;
+}
+#sbt
+{
+  margin-left: 30px;
+  height: 45px;
+  width: 130px;
+  font-weight: 600;
+  background-color: #ef4836;
+  color: #fff;
+  border-color: transparent;
+  position: relative;
+  top: 2px;
+}
+.csm
+{
+  display: none;
+  height: 0px;
+}
+.whylist li
+{
+  margin-bottom: 10px;
+  text-align: justify;
+}
+#why_naga .r1
+{
+  padding: 20px;
+}
+#why_naga .vc_column-inner
+{
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+      margin-top: 0px;
+      padding-top: 0px;
+      text-align: justify;
+}
+
+#why_naga p
+{
+  text-align: justify;
+}
+#achievements img
+{
+  transition: all 0.5s ease;
+}
+#achievements .thumb-wrapper
+{
+  overflow: hidden;
+}
+#achievements .thumbnail:hover img
+{
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.2);
+}
+#achievements .thumbnail
+{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5), 10px 10px 20px rgba(0,0,0,1);
 }

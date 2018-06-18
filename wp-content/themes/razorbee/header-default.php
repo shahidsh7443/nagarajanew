@@ -50,7 +50,7 @@ $rurl=is_front_page()?site_url():site_url();
             <div class="navbar-header">
 
                                     <div class="mobile-donate-button pull-right visible-xs">
-                        <a class="btn btn-primary" href="<?php echo $rurl?>/index.php/coming-soon/"><i class="fa fa-usd"></i></a>
+                        <a class="btn btn-primary" href="https://tminterviews.as.me/schedule.php"><i class="fa fa-usd"></i></a>
                     </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mobile-toggle">
@@ -66,7 +66,7 @@ $rurl=is_front_page()?site_url():site_url();
             <div class="hidden-xs" style="display:block;">
                 <div class="main-menu">
                                             <div class="donate-button pull-right hidden-md hidden-sm">
-                                                            <a href="<?php echo $rurl?>/index.php/coming-soon/">Appointment </a>
+                                                            <a href="https://tminterviews.as.me/schedule.php">Appointment </a>
                                                     </div>
 <div class="collapse navbar-collapse">
                     <ul id="menu-primary-menu" class="menu nav navbar-nav navbar-right">
@@ -79,18 +79,20 @@ if (is_front_page()){?>
   <li id="menu-item-3325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2320 current_page_item menu-item-3324  has-menu-child  scroll"><a title="Home" href="<?php echo $rurl ?>" style="font-size:16px;font-weight:bold;color:black !important;">Home</a></li>
 
 <?php }?>
-<li id="menu-item-3325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3325   has-menu-child scroll"><a title="About" href="<?php echo $rurl?>/#about" style="font-size:16px;font-weight:bold;color:black;">About</a></li>
+<li id="menu-item-3325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3325   has-menu-child scroll"><a title="Bio" href="<?php echo $rurl?>/#about" style="font-size:16px;font-weight:bold;color:black;">Bio</a></li>
+<li id="menu-item-3325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3325   has-menu-child scroll"><a title="Philosophy" href="<?php echo $rurl?>/#philosophy" style="font-size:16px;font-weight:bold;color:black;">Philosophy</a></li>
+<li id="menu-item-3326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3326   has-menu-child scroll"><a title="Vision" href="<?php echo $rurl?>/#vision" style="font-size:16px;font-weight:bold;color:black;">Vision</a></li>
 <li id="menu-item-3326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3326   has-menu-child scroll"><a title="Why_Nagaraj" href="<?php echo $rurl?>/#why_naga" style="font-size:16px;font-weight:bold;color:black;">Why Nagaraja?</a></li>
-<li id="menu-item-3331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3331  has-menu-child scroll"><a title="Career_history" href="<?php echo $rurl?>/#career_history" style="font-size:16px;font-weight:bold;color:black;">Leadership Journey</a></li>
+<li id="menu-item-3331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3331  has-menu-child scroll"><a title="Milestones" href="<?php echo $rurl?>/#career_history" style="font-size:16px;font-weight:bold;color:black;">Milestones</a></li>
 <li id="menu-item-3327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3327   has-menu-child scroll"><a title="Achievements" href="<?php echo $rurl?>/#achievements" style="font-size:16px;font-weight:bold;color:black;">Achievements</a></li>
 <li id="menu-item-3328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3328  has-menu-child scroll"><a title="Testimonials" href="<?php echo $rurl?>/#testimonials" style="font-size:16px;font-weight:bold;color:black;">Testimonials</a></li>
 
-<li id="menu-item-3343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3342  has-menu-child scroll"><a title="Blogs" href="<?php echo $rurl?>/#blogs" style="font-size:16px;font-weight:bold;color:black;">Blogs</a></li>
+<li id="menu-item-3343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3342  has-menu-child scroll"><a title="Blogs" href="<?php echo $rurl?>/#blogs" style="font-size:16px;font-weight:bold;color:black;">Blog</a></li>
 <li id="menu-item-3329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3329  has-menu-child scroll"><a title="Resources" href="<?php echo $rurl?>/#resources" style="font-size:16px;font-weight:bold;color:black;">Resources</a></li>
 
 <li id="menu-item-3332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3332  has-menu-child scroll"><a title="Contact" href="<?php echo $rurl?>/#contact" style="font-size:16px;font-weight:bold;color:black;">Contact</a></li>
 <li id="menu-item-3339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3334  has-menu-child scroll donate-button pull-right hidden-lg" style="
-    position: relative;  margin-top: -2px;margin-left:0px;"><a href="<?php echo $rurl?>/index.php/coming-soon/" style="padding-left:10px;padding-right:10px;">Appointment </a></li>
+    position: relative;  margin-top: -2px;margin-left:0px;"><a href="https://tminterviews.as.me/schedule.php" style="padding-left:10px;padding-right:10px;">Appointment </a></li>
 
 </ul>
 
@@ -107,12 +109,15 @@ if (is_front_page()){?>
 <?php }else{?>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2320 current_page_item menu-item-3384   has-menu-child scroll"><a title="Home" href="<?php echo $rurl ?>" style="font-size:16px;color:black !important;">Home</a></li>
 <?php }?>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3325  has-menu-child scroll"><a title="About" href="<?php echo $rurl?>/#about" style="font-size:16px;color:black !important;">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3383  has-menu-child scroll"><a title="Why nagaraj" href="<?php echo $rurl?>/#why_naga" style="font-size:16px;color:black !important;">Why Nagaraja?</a></li>
-  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3386  has-menu-child scroll"><a title="Career_history" href="<?php echo $rurl?>/#career_history" style="font-size:16px;color:black !important;">Leadership Journey</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3325  has-menu-child scroll"><a title="Bio" href="<?php echo $rurl?>/#about" style="font-size:16px;color:black !important;">Bio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33251  has-menu-child scroll"><a title="Philosophy" href="<?php echo $rurl?>/#philosophy" style="font-size:16px;color:black !important;">Philosophy</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33831  has-menu-child scroll"><a title="Vision" href="<?php echo $rurl?>/#vision" style="font-size:16px;color:black !important;">Vision</a></li>
+
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3383  has-menu-child scroll"><a title="Why nagaraj" href="<?php echo $rurl?>/#why_naga" style="font-size:16px;color:black !important;">Why Nagaraja?</a></li>
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3386  has-menu-child scroll"><a title="Milestones" href="<?php echo $rurl?>/#career_history" style="font-size:16px;color:black !important;">Milestones</a></li>
   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3382  has-menu-child scroll"><a title="ACHIVEMENT" href="<?php echo $rurl?>/#achievements" style="font-size:16px;color:black !important;">Achievements</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3384  has-menu-child scroll"><a title="Testimonial" href="<?php echo $rurl?>/#testimonials" style="font-size:16px;color:black !important;">Testimonials</a></li>
-      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3389  has-menu-child scroll"><a title="Blogs" href="<?php echo $rurl?>/#blogs" style="font-size:16px;color:black !important;">Blogs</a></li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3389  has-menu-child scroll"><a title="Blogs" href="<?php echo $rurl?>/#blogs" style="font-size:16px;color:black !important;">Blog</a></li>
       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3385  has-menu-child scroll"><a title="Resources" href="<?php echo $rurl?>/#resources" style="font-size:16px;color:black !important;">Resources</a></li>
        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3387  has-menu-child scroll"><a title="Contact" href="<?php echo $rurl?>/#contact" style="font-size:16px;color:black !important;">Contact</a></li>
 </ul>                </div> <!-- /.navbar-collapse -->

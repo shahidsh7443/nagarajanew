@@ -743,7 +743,75 @@ if (this.hash=="achivement"){
   else if (this.hash=="#testimonials") {
     _top=25;
   }
+  else if (this.hash=="#vision") {
+    _top=100;
+  }
+  else if (this.hash=="#philosophy") {
+    _top=125;
+  }
   		$('html, body').animate({scrollTop: $(this.hash).offset().top - _top}, 1000);
   		return false;
   	});
+$('.tbt #sbt').click(function(e) {
+  if($(window).width()<720)
+  {
+    if($('.csm').css('display')=='none') {
+      $('.csm').animate({
+        'height': '1100px'
+    });
+    $('.csm').show();
+		 $('.tbt #sbt').hide();
+	}
+	else
+	 {
+     $('.csm').animate({
+       'height': '0px'
+   });
+		 $('.csm').hide();
+		 $('.tbt #sbt').val("Readmore");
+	}
+  }
+  else if($(window).width()>1023 && $(window).width()<1200){
+
+		if($('.csm').css('display')=='none') {
+      $('.csm').animate({
+        'height': '450px'
+    });
+    $('.csm').show();
+		 $('.tbt #sbt').hide();
+	}
+	else
+	 {
+     $('.csm').animate({
+       'height': '0px'
+   });
+		 $('.csm').hide();
+		 $('.tbt #sbt').val("Readmore");
+	}
+}
+else if($(window).width()>721 && $(window).width()<1023) {
+
+  if($('.csm').css('display')=='none') {
+    $('.csm').animate({
+      'height': '570px'
+  });
+  $('.csm').show();
+   $('.tbt #sbt').hide();
+}
+else
+ {
+   $('.csm').animate({
+     'height': '0px'
+ });
+   $('.csm').hide();
+   $('.tbt #sbt').val("Readmore");
+}
+}
+});
+/*if( $(window).width()<720)
+{
+var tt= $(window).height();
+var tt1=tt-40;
+$('#slides').css('height',tt1);
+}*/
 });
